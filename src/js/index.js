@@ -27,7 +27,6 @@ function getData(event) {
     .catch(error => console.log(error))
 }
 
- // request
 async function getRequest(value, step) {
     const url = `https://pixabay.com/api/?key=29230094-1d6fe7151785ccfc3d660c9e4&q=${value}&image_type=photo&orientation=horizontal&safesearc=true&per_page=40&page=${step}`;
       try {
