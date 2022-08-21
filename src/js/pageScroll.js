@@ -1,4 +1,4 @@
-/*
+
 function endlessScroll(gallery) {
 const { height: cardHeight } =
     gallery.firstElementChild.getBoundingClientRect();
@@ -10,4 +10,3 @@ behavior: "smooth",
 
 export default endlessScroll;
 
-*/

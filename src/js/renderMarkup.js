@@ -1,4 +1,4 @@
-/*
+
 import { galleryEl } from './ref';
 //import { galleryEl } from './index'
 import SimpleLightbox from 'simplelightbox';
@@ -56,4 +56,3 @@ const createGalleryListMarkup = gallery => {
 };
       
 export default createGalleryListMarkup;
-*/

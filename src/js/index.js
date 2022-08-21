@@ -1,14 +1,14 @@
-/*import { formEl, loadMoreBtnEl } from './ref';
+import { formEl, loadMoreBtnEl } from './ref';
 import onClickLonBtnSubmit from './onClickLonBtnSubmit';
 import { onClickLonBtnSubmit, onClickAddPage } from './onClickLonBtnSubmit';
 
 formEl.addEventListener('submit', onClickLonBtnSubmit);
-loadMoreBtnEl.addEventListener('click', onClickAddPage);*/
+loadMoreBtnEl.addEventListener('click', onClickAddPage);
 
 
 
 
-
+/*
 import axios from "axios";
 import Notiflix from "notiflix";
 import SimpleLightbox from 'simplelightbox';
@@ -101,4 +101,4 @@ function renderGallery(info) {
 
 function moreContent () {
     getRequest();
-  }
+  }*/

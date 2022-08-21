@@ -1,4 +1,4 @@
-/*
+
 const axios = require("axios").default;
 
 const fetchGallery = async (value, step) => {
@@ -12,4 +12,4 @@ const fetchGallery = async (value, step) => {
 //fetchGallery()
 export default fetchGallery;
 
-*/
+

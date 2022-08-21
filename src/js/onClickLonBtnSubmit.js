@@ -1,4 +1,4 @@
-/*
+
 import Notiflix from 'notiflix';
 import { galleryEl, loadMoreBtnEl } from './ref';
 //import { galleryEl, loadMoreBtnEl } from './index';
@@ -36,4 +36,3 @@ async function onClickAddPage() {
 }
 
 export { onClickLonBtnSubmit, onClickAddPage };
-*/

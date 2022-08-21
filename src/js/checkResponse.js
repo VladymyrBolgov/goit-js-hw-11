@@ -1,4 +1,4 @@
-/*
+
 import createGalleryListMarkup from './renderMarkup';
 import Notiflix from 'notiflix';
 //import { galleryEl, loadMoreBtnEl } from './index';
@@ -33,4 +33,3 @@ function checkPhotoAmount(response) {
 
 export default checkResponse;
 
-*/

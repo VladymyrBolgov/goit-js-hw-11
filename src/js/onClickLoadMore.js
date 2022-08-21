@@ -1,4 +1,4 @@
-/*
+
 import Notiflix from 'notiflix';
 import { galleryEl, loadMoreBtnEl } from './ref';
 //import { galleryEl, loadMoreBtnEl } from './index';
@@ -21,4 +21,3 @@ function onClickLoadMore(response, step) {
 }
 
 export default onClickLoadMore;
-*/
