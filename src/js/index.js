@@ -1,9 +1,17 @@
+/*import { formEl, loadMoreBtnEl } from './ref';
+import onClickLonBtnSubmit from './onClickLonBtnSubmit';
+import { onClickLonBtnSubmit, onClickAddPage } from './onClickLonBtnSubmit';
+
+formEl.addEventListener('submit', onClickLonBtnSubmit);
+loadMoreBtnEl.addEventListener('click', onClickAddPage);*/
+
+
+
+
 
 import axios from "axios";
 import Notiflix from "notiflix";
-
 import SimpleLightbox from 'simplelightbox';
-import "simplelightbox/dist/simple-lightbox.min.css";
 
 const galleryEl = document.querySelector('.gallery');
 const formEl = document.querySelector('.search-form');
@@ -27,6 +35,7 @@ function getData(event) {
     .catch(error => console.log(error))
 }
 
+ // request
 async function getRequest(value, step) {
     const url = `https://pixabay.com/api/?key=29230094-1d6fe7151785ccfc3d660c9e4&q=${value}&image_type=photo&orientation=horizontal&safesearc=true&per_page=40&page=${step}`;
       try {
