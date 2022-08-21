@@ -1,7 +1,6 @@
 
 import createGalleryListMarkup from './renderMarkup';
 import Notiflix from 'notiflix';
-//import { galleryEl, loadMoreBtnEl } from './index';
 import { galleryEl, loadMoreBtnEl } from './ref';
 
 function checkResponse(response) {
