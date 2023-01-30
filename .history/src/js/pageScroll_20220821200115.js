@@ -10,5 +10,3 @@ behavior: "smooth",
 
 export default endlessScroll;
 
-
-

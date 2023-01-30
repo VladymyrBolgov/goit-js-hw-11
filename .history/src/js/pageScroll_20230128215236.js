@@ -10,5 +10,5 @@ behavior: "smooth",
 
 export default endlessScroll;
 
-
+pages/NewsPage
 
